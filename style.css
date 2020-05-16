@@ -20,7 +20,7 @@ body {
   font-family: "Lato";
 }
 
-.scale-in-center {
+.main {
   overflow: hidden;
   background: #f6e8cd;
   width: 624px;
@@ -30,7 +30,8 @@ body {
   -webkit-box-shadow: 10px -9px 42px -17px rgba(246, 232, 205, 1);
   -moz-box-shadow: 10px -9px 42px -17px rgba(246, 232, 205, 1);
   box-shadow: 10px -9px 42px -17px rgba(246, 232, 205, 1);
-
+}
+.scale-in-center {
   -webkit-animation: scale-in-center 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: scale-in-center 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -64,16 +65,13 @@ body {
 .flex {
   display: flex;
   flex-direction: column;
-  align-content: center;
   align-items: flex-end;
 }
-.someone__description--with-margin {
-  margin-top: 22px;
-}
+
 .someone__picture {
   margin-left: 32px;
   border-radius: 50%;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   -webkit-box-shadow: -5px 3px 42px -6px rgba(102, 102, 102, 1);
   -moz-box-shadow: -5px 3px 42px -6px rgba(102, 102, 102, 1);
   box-shadow: -5px 3px 42px -6px rgba(102, 102, 102, 1);
